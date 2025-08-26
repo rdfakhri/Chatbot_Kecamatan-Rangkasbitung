@@ -1,0 +1,271 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "halo",
+        "hello",
+        "hai",
+        "selamat pagi",
+        "selamat siang",
+        "selamat sore",
+        "selamat malam"
+      ],
+      "responses": [
+        "Halo, selamat datang di layanan informasi Kecamatan Rangkasbitung. Saya adalah chatbot yang siap membantu menjawab pertanyaan Anda seputar informasi dan layanan yang tersedia di Kecamatan Rangkasbitung. Ada yang bisa kami bantu?",
+        "Hai, selamat datang di layanan informasi Kecamatan Rangkasbitung. Saya adalah chatbot yang siap membantu menjawab pertanyaan Anda seputar informasi dan layanan yang tersedia di Kecamatan Rangkasbitung. Ada yang bisa kami bantu?",
+        "Selamat datang di layanan informasi Kecamatan Rangkasbitung. Saya adalah chatbot yang siap membantu menjawab pertanyaan Anda seputar informasi dan layanan yang tersedia di Kecamatan Rangkasbitung. Ada yang bisa kami bantu?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Saya butuh bantuan",
+        "Bagaimana cara menggunakan chatbot ini?",
+        "Apa yang bisa chatbot ini lakukan?"
+      ],
+      "responses": [
+        "Saya dapat membantu menjawab pertanyaan seputar layanan di Kecamatan Rangkasbitung. Silakan tanyakan apa yang Anda butuhkan."
+      ]
+    },
+    {
+      "tag": "requirement_sktm",
+      "patterns": [
+        "Apa syarat pembuatan Surat Keterangan Tidak Mampu?",
+        "Bagaimana cara membuat SKTM?",
+        "Pembuatan Surat Keterangan Tidak Mampu",
+        "4"
+      ],
+      "responses": [
+        "Untuk pembuatan Surat Keterangan Tidak Mampu (SKTM), silakan siapkan dan bawa dokumen berikut saat ke kantor Kecamatan ya:<br>\n1. Surat Keterangan dari Kepala Desa<br>\n2. Fakta Integritas dari Kepala Desa/Kelurahan<br>\n3. Fotokopi KTP<br>\n4. Fotokopi Kartu Keluarga (KK)<br>\n5. Foto Rumah<br>\n6. Rekening Listrik"
+      ]
+    },
+    {
+      "tag": "requirement_kk",
+      "patterns": [
+        "Apa syarat pembuatan Kartu Keluarga?",
+        "Bagaimana cara membuat KK baru?",
+        "Pembuatan Kartu Keluarga",
+        "2"
+      ],
+      "responses": [
+        "Untuk pembuatan Kartu Keluarga, silakan siapkan dan bawa dokumen berikut saat ke kantor Kecamatan ya:<br>\n1. Kartu Keluarga lama<br>\n2. Surat Pengantar Pembuatan Kartu Keluarga dari Desa/Kelurahan"
+      ]
+    },
+    {
+      "tag": "requirement_akta_kelahiran",
+      "patterns": [
+        "Apa syarat pembuatan Akta Kelahiran?",
+        "Bagaimana cara mengurus akta kelahiran?",
+        "Pembuatan Akta Kelahiran",
+        "3"
+      ],
+      "responses": [
+        "Untuk pembuatan Akta Kelahiran, silakan siapkan dan bawa dokumen berikut saat ke kantor Kecamatan ya:<br>\n1. Kartu Keluarga (KK)<br>\n2. Surat Keterangan Lahir (Desa/Kelurahan/Klinik/Bidan)<br>\n3. Fotokopi KTP suami dan istri<br>\n4. Fotokopi KTP 2 orang saksi<br>\n5. Formulir F2.01 (isi lengkap)"
+      ]
+    },
+    {
+      "tag": "requirement_ktp",
+      "patterns": [
+        "Perekaman Data Kartu Tanda Penduduk elektronik (E-KTP)",
+        "Bagaimana cara mengurus e-KTP?",
+        "Saya ingin membuat KTP, apa yang diperlukan?",
+        "Pembuatan Kartu Tanda Penduduk",
+        "1"
+      ],
+      "responses": [
+        "Untuk pembuatan KTP, silakan siapkan dan bawa dokumen berikut saat ke kantor Kecamatan ya:<br>\n1. Kartu Keluarga (KK)<br>\n2. Surat Pengantar Pembuatan KTP (Desa/Kelurahan)"
+      ]
+    },
+    {
+      "tag": "requirement_pindah_domisili",
+      "patterns": [
+        "Apa syarat pembuatan Surat Pindah Domisili?",
+        "Bagaimana cara mengurus surat pindah?"
+      ],
+      "responses": [
+        "Syarat pembuatan Surat Pindah Domisili: Surat pengantar RT/RW, Fotokopi KK, Fotokopi KTP, Surat pernyataan pindah."
+      ]
+    },
+    {
+      "tag": "requirement_pengaduan",
+      "patterns": [
+        "Apa syarat untuk Pelayanan Pengaduan Masyarakat?",
+        "Bagaimana cara mengajukan pengaduan?"
+      ],
+      "responses": [
+        "Syarat pengaduan masyarakat: Formulir pengaduan, Fotokopi KTP, Bukti pendukung pengaduan."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Selesai",
+        "Terima kasih",
+        "Cukup sekian"
+      ],
+      "responses": [
+        "Terima kasih telah menggunakan layanan informasi Kecamatan Rangkasbitung. Mohon berikan penilaian dan masukan Anda melalui Google Form berikut: [LINK GOOGLE FORM]",
+        "Kami sangat menghargai masukan Anda! Silakan isi formulir umpan balik di sini: [LINK GOOGLE FORM]",
+        "Jika Anda merasa layanan ini bermanfaat, mohon berikan penilaian melalui tautan berikut: [LINK GOOGLE FORM]"
+      ]
+    },
+    {
+      "tag": "pengaduan",
+      "patterns": [
+        "Saya mau mengajukan pengaduan",
+        "Bagaimana cara melaporkan masalah?",
+        "Saya ingin membuat pengaduan"
+      ],
+      "responses": [
+        "Silakan sebutkan nama Anda, email, kategori pengaduan, dan isi pengaduan Anda.",
+        "Mohon berikan detail pengaduan Anda: Nama, Email, Kategori, dan Isi pengaduan."
+      ]
+    },
+    {
+      "tag": "antrian_ktp",
+      "patterns": [
+        "Saya ingin mendaftar antrian KTP",
+        "Bagaimana cara membuat KTP?",
+        "Apakah ada antrian untuk KTP?"
+      ],
+      "responses": [
+        "Silakan berikan nama lengkap dan email Anda untuk mendaftar antrian KTP."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "Apa saja layanan yang tersedia di kecamatan Rangkasbitung?",
+        "Layanan publik di kecamatan Rangkasbitung",
+        "Layanan apa yang tersedia di kecamatan?",
+        "Pelayanan apa yang bisa diurus di Kecamatan Rangkasbitung?",
+        "Apa yang bisa saya urus di Kecamatan Rangkasbitung?"
+      ],
+      "responses": [
+        "Di Kecamatan Rangkasbitung, kami menyediakan berbagai layanan publik, termasuk:<br>1. Pembuatan Kartu Tanda Penduduk (KTP)<br>2. Pembuatan Kartu Keluarga (KK)<br>3. Pembuatan Akta Kelahiran<br>4. Pembuatan Surat Keterangan Tidak Mampu (SKTM)<br>5. Pembuatan Surat Kematian<br>6. Pembuatan Surat Keterangan Domisili<br>7. Pembuatan Surat Izin Usaha Mikro Kecil (IUMK)<br>8. Pembuatan Surat Pindah Domisili<br>9. Layanan legalisasi dokumen<br>10. Pelayanan pengaduan masyarakat untuk berbagai keperluan administrasi dan kependudukan."
+      ]
+    },
+    {
+      "tag": "mulai",
+      "patterns": [
+        "mulai"
+      ],
+      "responses": [
+        "Di Kecamatan Rangkasbitung, kami menyediakan berbagai layanan publik, termasuk:<br>\n1. Perekaman Data Kartu Tanda Penduduk elektronik (E-KTP)<br>\n2. Pembuatan Kartu Keluarga (KK)<br>\n3. Pembuatan Akta Kelahiran<br>\n4. Pembuatan Surat Keterangan Tidak Mampu (SKTM)<br>\n5. Pembuatan Surat Keterangan Ahli Waris dan Surat Kuasa Waris<br>\n6. Pembuatan Surat Keterangan Pindah Penduduk<br><br>\n\nKetik nomor atau nama layanan yang ingin ditanyakan syaratnya, ya!<br><br>\n\nAnda juga bisa menanyakan hal lain seperti:<br>\n- Jam kerja Kecamatan?<br>\n- Alamat lengkap kantor Kecamatan Rangkasbitung?<br>\n- Bagaimana cara membuat KTP?<br>\n- Apa syarat untuk Pelayanan Pengaduan Masyarakat?"
+      ]
+    },
+    {
+      "tag": "requirement_domisili",
+      "patterns": [
+        "Surat Keterangan Pindah Penduduk",
+        "Apa syarat pembuatan Surat Keterangan pindah Domisili?",
+        "Bagaimana cara mengurus surat domisili?",
+        "6"
+      ],
+      "responses": [
+        "Untuk pembuatan Surat Keterangan Pindah Domisili, silakan siapkan dan bawa dokumen berikut saat ke kantor Kecamatan ya:<br>\n1. Surat Pengantar dari Kepala Desa/Kelurahan<br>\n2. Kartu Keluarga (KK)<br>\n3. Fotokopi KTP"
+      ]
+    },
+    {
+      "tag": "tes",
+      "patterns": [
+        "q"
+      ],
+      "responses": [
+        "a"
+      ]
+    },
+    {
+      "tag": "no answer",
+      "patterns": [
+        "d"
+      ],
+      "responses": [
+        "Maaf, chatbot belum memahami pertanyaan Anda. Silakan ajukan pertanyaan yang berkaitan dengan layanan di Kecamatan Rangkasbitung, Untuk memulai, ketik mulai ya 😊"
+      ]
+    },
+    {
+      "tag": "requirement_surat_kematian",
+      "patterns": [
+        "Surat Keterangan ahli Waris dan Surat",
+        "Apa syarat pembuatan Keterangan ahli Waris dan Surat ?",
+        "Bagaimana cara mengurus Keterangan ahli Waris dan Surat?",
+        "5"
+      ],
+      "responses": [
+        "Untuk pembuatan Surat Keterangan Ahli Waris, silakan siapkan dan bawa dokumen berikut saat ke kantor Kecamatan ya:<br>\n1. Surat Keterangan Ahli Waris yang dibuat Ahli Waris dan diketahui Kepala Desa/Kelurahan<br>\n2. Fotokopi KTP Ahli Waris<br>\n3. Fotokopi Kartu Keluarga (KK) Ahli Waris<br>\n4. Kartu Keluarga Pewaris<br>\n5. Surat/Akta Kematian Pewaris"
+      ]
+    },
+    {
+      "tag": "tes",
+      "patterns": [
+        "q"
+      ],
+      "responses": [
+        "a"
+      ]
+    },
+    {
+      "tag": "tes",
+      "patterns": [
+        "q"
+      ],
+      "responses": [
+        "a"
+      ]
+    },
+    {
+      "tag": "tes",
+      "patterns": [
+        "q"
+      ],
+      "responses": [
+        "a"
+      ]
+    },
+    {
+      "tag": "tes",
+      "patterns": [
+        "q"
+      ],
+      "responses": [
+        "a"
+      ]
+    },
+    {
+      "tag": "no answer",
+      "patterns": [
+        "d"
+      ],
+      "responses": [
+        "Maaf, chatbot belum memahami pertanyaan Anda. Silakan ajukan pertanyaan yang berkaitan dengan layanan di Kecamatan Rangkasbitung, Untuk memulai, ketik mulai ya 😊"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "Maaf",
+        "Tidak tahu",
+        "Bukan itu maksud saya",
+        "Apa?",
+        "Ha?"
+      ],
+      "responses": [
+        "Maaf, chatbot belum memahami pertanyaan Anda. Silakan ajukan pertanyaan yang berkaitan dengan layanan di Kecamatan Rangkasbitung, Untuk memulai, ketik mulai ya 😊"
+      ]
+    },
+    {
+      "tag": "jam_buka",
+      "patterns": [
+        "jam buka kecamatan",
+        "jam buka kantor",
+        "jam buka",
+        "jam buka nya"
+      ],
+      "responses": [
+        "jam buka kecamatan ini dari jam 10.00 - 16.00"
+      ]
+    }
+  ]
+}
